@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">MoSE</string>
+    <string name="title_activity_script">输入脚本</string>
+    <string name="title_activity_de">DataEditor</string>
+    <string name="attack">攻击力</string>
+    <string name="deffence">守备力</string>
+    <string name="atk">atk</string>
+    <string name="def">def</string>
+
+</resources>

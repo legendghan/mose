@@ -1,0 +1,184 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.legendhan.mose.MainActivity" >
+    
+	<item android:title="YGOpro"
+	    android:icon="@drawable/scrippt"
+	    android:showAsAction="ifRoom">
+		<menu>
+	        <item android:title="编辑卡片脚本"
+	    		android:id="@+id/sce"/>
+		    <item android:title="导入数据库"
+	    		android:id="@+id/cdb"/>
+		 </menu>
+	</item>
+	<item android:title="!重置!"
+	    android:id="@+id/rezhi"
+	    android:showAsAction="never"/>
+	<item android:title="刷新"
+	    android:id="@+id/refresh"
+		android:icon="@drawable/refresh"
+	    android:showAsAction="ifRoom"/>
+	<item android:title="类型"
+	    android:id="@+id/tp"
+	    android:showAsAction="never">
+    	<menu>
+        	<item android:id="@+id/nm"
+            	android:title="通常怪兽"/>
+       		<item android:id="@+id/em"
+            	android:title="效果怪兽"/>
+       		<item android:id="@+id/rm"
+            	android:title="仪式怪兽"/>
+       		<item android:id="@+id/fm"
+            	android:title="融合怪兽"/>
+       		<item android:id="@+id/sm"
+            	android:title="同调怪兽"/>
+       		<item android:id="@+id/xm"
+            	android:title="超量怪兽"/>
+       		<item android:id="@+id/mg"
+            	android:title="魔法卡"/>
+       		<item android:id="@+id/trp"
+            	android:title="陷阱卡"/>
+       		<item android:id="@+id/bltk"
+            	android:title="token代卡"/>
+       		<item android:id="@+id/tk"
+            	android:title="token怪兽"/>
+   		</menu>
+	</item>
+	<item android:title="灵摆模式切换"
+	    android:id="@+id/pmode"
+	    android:icon="@drawable/picon"
+	    android:showAsAction="ifRoom">
+	</item>
+	<item android:title="灵摆文字"
+	    android:id="@+id/pword"
+	    android:showAsAction="never">
+    	<menu>
+       		<item android:id="@+id/pkedu"
+            	android:title="灵摆刻度"/>
+       		<item android:id="@+id/peffect"
+            	android:title="灵摆效果"/>
+    	</menu>
+	</item>
+	<item android:title="属性"
+	    android:id="@+id/shx"
+	    android:showAsAction="never">
+    	<menu>
+    	    <item android:id="@+id/shxl"
+    	        android:title="光"/>
+    	    <item android:id="@+id/shxd"
+    	        android:title="暗"/>
+    	    <item android:id="@+id/shxf"
+    	        android:title="炎"/>
+    	    <item android:id="@+id/shxwd"
+    	        android:title="风"/>
+    	    <item android:id="@+id/shxw"
+    	        android:title="水"/>
+    	    <item android:id="@+id/shxg"
+    	        android:title="地"/>
+    	    <item android:id="@+id/shxgd"
+    	        android:title="神"/>
+    	</menu>
+	</item>
+	<item android:title="等级/阶级"
+	    android:id="@+id/stlv"
+	    android:showAsAction="never">
+    	<menu>
+    	    <item android:id="@+id/lv0"
+    	        android:title="0"/>
+    	    <item android:id="@+id/lv1"
+    	        android:title="1"/>
+    	    <item android:id="@+id/lv2"
+    	        android:title="2"/>
+    	    <item android:id="@+id/lv3"
+    	        android:title="3"/>
+    	    <item android:id="@+id/lv4"
+    	        android:title="4"/>
+    	    <item android:id="@+id/lv5"
+    	        android:title="5"/>
+    	    <item android:id="@+id/lv6"
+    	        android:title="6"/>
+    	    <item android:id="@+id/lv7"
+    	        android:title="7"/>
+    	    <item android:id="@+id/lv8"
+    	        android:title="8"/>
+    	    <item android:id="@+id/lv9"
+    	        android:title="9"/>
+    	    <item android:id="@+id/lv10"
+    	        android:title="10"/>
+    	    <item android:id="@+id/lv11"
+    	        android:title="11"/>
+    	    <item android:id="@+id/lv12"
+    	        android:title="12"/>
+    	</menu>
+	</item>
+	<item android:title="魔陷种类"
+	    android:id="@+id/mgtp"
+	    android:visible="false"
+	    android:showAsAction="never">
+    	<menu>
+    	    <item android:id="@+id/tong"
+    	        android:title="通常"/>
+    	    <item android:id="@+id/fan"
+    	        android:title="反击"/>
+    	    <item android:id="@+id/yong"
+    	        android:title="永续"/>
+    	    <item android:id="@+id/su"
+    	        android:title="速攻"/>
+    	    <item android:id="@+id/zhuang"
+    	        android:title="装备"/>
+    	    <item android:id="@+id/chang"
+    	        android:title="场地"/>
+    	    <item android:id="@+id/yi"
+    	        android:title="仪式"/>
+    	</menu>
+	</item>
+	<item android:title="插入图片"
+	    android:id="@+id/tpinput"
+	    android:showAsAction="never"/>
+	<item android:title="更改文字"
+	    android:id="@+id/textinput"
+	    android:showAsAction="never">
+    	<menu>
+    	    <item android:id="@+id/ttkm"
+    	        android:title="卡名"/>
+    	    <item android:id="@+id/ttzz"
+    	        android:title="种族/种类"/>
+    	    <item android:id="@+id/ttxg"
+    	        android:title="效果"/>
+    	    <item android:id="@+id/ttbh"
+    	        android:title="卡包编号"/>
+    	    <item android:id="@+id/ttmm"
+    	        android:title="卡片密码"/>
+    	    <item android:id="@+id/bqwz"
+    	        android:title="版权文字"/>
+    	</menu>
+	</item>
+	<item android:title="攻击力/守备力"
+	    android:id="@+id/atkd"
+	    android:showAsAction="never"/>
+	<item android:title="设置罕贵度"
+	    android:id="@+id/rlty"
+	    android:showAsAction="never"/>
+	<item android:title="保存图片"
+	    android:id="@+id/tpoutput"
+	    android:showAsAction="never"/>
+	<item android:title="退出"
+	    android:id="@+id/exit"
+	    android:icon="@drawable/quit"
+	    android:showAsAction="always"/>
+	
+	<item android:title="存档相关"
+	    android:id="@+id/setset"
+	    android:showAsAction="never">
+    	<menu>
+    	    <item android:id="@+id/setread"
+    	        android:title="读档"/>
+    	    <item android:id="@+id/setwrite"
+    	        android:title="存档"/>
+    	    <item android:id="@+id/setdelete"
+    	        android:title="刪除自動存档"/>
+    	</menu>
+	</item>
+</menu>

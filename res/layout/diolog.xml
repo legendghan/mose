@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--  android:orientation="vertical"-->
+    <TableRow>
+        <TextView 
+            android:text="种 族"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/zz"
+            android:title="zz"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:width="180dp" />
+
+    </TableRow>
+    
+    <TableRow>
+        <TextView 
+            android:text="种类1"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/zl1"
+            android:title="zl1"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:width="180dp" />
+
+    </TableRow>
+    
+    <TableRow>
+        <TextView 
+            android:text="种类2"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/zl2"
+            android:title="zl2"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:width="180dp" />
+
+    </TableRow>
+    
+    <TableRow>
+        <TextView 
+            android:text="种类3"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+			android:id="@+id/zl3"
+			android:title="zl3"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:width="180dp" />
+        
+    </TableRow>
+
+</TableLayout>

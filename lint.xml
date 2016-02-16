@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/legendhan/mose/OpenFileDialogForDB.java" />
+    </issue>
+    <issue id="DrawAllocation">
+        <ignore path="src/com/legendhan/mose/KaMo.java" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_dex.xml" />
+        <ignore path="res/layout/activity_script.xml" />
+        <ignore path="res/layout/diolog.xml" />
+        <ignore path="res/menu/main.xml" />
+    </issue>
+    <issue id="MissingTranslation" severity="warning" />
+</lint>
