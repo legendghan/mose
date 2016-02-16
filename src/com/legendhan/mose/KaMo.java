@@ -1,4 +1,4 @@
-package com.legendhan.mose2;
+package com.legendhan.mose;
 
 import java.io.File;
 import java.io.FileOutputStream;

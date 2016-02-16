@@ -1,4 +1,4 @@
-package com.legendhan.mose2;
+package com.legendhan.mose;
 
 import android.annotation.*;
 import android.app.*;
